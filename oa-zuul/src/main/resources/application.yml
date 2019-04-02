@@ -1,0 +1,21 @@
+server:
+  port: 80
+spring:
+  application:
+    name: oa-zuul
+
+zuul:
+  routes:
+    oa-lcf-demo-web:
+      path: /**
+      serviceId: oa-lcf-demo-web
+    #每个模块需要加上一个配置
+    #oa-lcf-demo-web2:
+      #path: /xxxxxx/**
+      #serviceId: oa-lcf-demo-web2
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+

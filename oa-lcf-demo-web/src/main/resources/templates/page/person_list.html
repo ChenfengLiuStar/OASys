@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>姓名</td>
+            <td>日期</td>
+        </tr>
+        <tr th:each="demo:${list}">
+            <td th:text="${demo.id}"></td>
+            <td th:text="${demo.name}"></td>
+            <td th:text="${#dates.format(demo.date,'yyyy-MM-dd')}"></td>
+        </tr>
+    </table>
+</body>
+</html>
