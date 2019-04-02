@@ -1,7 +1,7 @@
 package com.oasys.oalcfdemoweb.controller;
 
-import com.oasys.oaapi.entity.Demo;
-import com.oasys.oaapi.service.PersonService;
+import com.oasys.oalcfdemoapi.entity.Demo;
+import com.oasys.oalcfdemoapi.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

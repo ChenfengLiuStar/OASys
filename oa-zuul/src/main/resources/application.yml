@@ -7,8 +7,8 @@ spring:
 zuul:
   routes:
     oa-lcf-demo-web:
-      path: /oa/oa-lcf-demo-web
-      serviceId: /oa/ldw/**
+      path: /oa/ldw/**
+      serviceId: oa-lcf-demo-web
     #每个模块需要加上一个配置
     #oa-lcf-demo-web2:
       #path: /oa/[serviceId]

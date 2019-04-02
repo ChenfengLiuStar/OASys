@@ -1,4 +1,5 @@
-package com.oasys.oaapi.entity;
+package com.oasys.oalcfdemoapi.entity;
+
 
 import com.oasys.oalcfdemocommon.annotaion.MyColumn;
 import com.oasys.oalcfdemocommon.annotaion.MyDate;
@@ -13,8 +14,9 @@ public class Demo implements Serializable {
     @MyId
     private Integer id;
     private String name;
-    @MyDate(pattern="yyyy-MM-dd")
+    @MyDate(pattern = "yyyy-MM-dd")
     private Date date;
+
     public Demo() {
     }
 
@@ -26,11 +28,19 @@ public class Demo implements Serializable {
         this.id = id;
     }
 
-    public String getName() { return name;}
+    public String getName() {
+        return name;
+    }
 
-    public void setName(String name) { this.name = name;}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    public Date getDate() { return date;}
+    public Date getDate() {
+        return date;
+    }
 
-    public void setDate(Date date) { this.date = date;}
+    public void setDate(Date date) {
+        this.date = date;
+    }
 }

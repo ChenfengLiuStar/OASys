@@ -1,7 +1,7 @@
 package com.oasys.oalcfdemoservice.service;
 
-import com.oasys.oaapi.entity.Demo;
-import com.oasys.oaapi.service.PersonService;
+import com.oasys.oalcfdemoapi.entity.Demo;
+import com.oasys.oalcfdemoapi.service.PersonService;
 import com.oasys.oalcfdemoservice.dao.PersonDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;

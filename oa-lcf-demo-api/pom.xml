@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.oasys</groupId>
-    <artifactId>oa-api</artifactId>
+    <artifactId>oa-lcf-demo-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>oa-api</name>
+    <name>oa-lcf-demo-api</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -38,6 +38,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>com.oasys</groupId>
             <artifactId>oa-lcf-demo-common</artifactId>

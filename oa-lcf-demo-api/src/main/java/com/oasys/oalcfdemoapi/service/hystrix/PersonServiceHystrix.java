@@ -1,7 +1,7 @@
-package com.oasys.oaapi.service.hystrix;
+package com.oasys.oalcfdemoapi.service.hystrix;
 
-import com.oasys.oaapi.entity.Demo;
-import com.oasys.oaapi.service.PersonService;
+import com.oasys.oalcfdemoapi.entity.Demo;
+import com.oasys.oalcfdemoapi.service.PersonService;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

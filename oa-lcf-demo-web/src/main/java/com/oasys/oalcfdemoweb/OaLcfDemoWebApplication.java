@@ -8,8 +8,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@ComponentScan(basePackages = {"com.oasys.oalcfdemoweb.controller","com.oasys.oaapi.service.hystrix"})
-@EnableFeignClients(basePackages = {"com.oasys.oaapi.service"})
+@ComponentScan(basePackages = {"com.oasys.oalcfdemoweb.controller","com.oasys.oalcfdemoapi.service.hystrix"})
+@EnableFeignClients(basePackages = {"com.oasys.oalcfdemoapi.service"})
 public class OaLcfDemoWebApplication {
 
     public static void main(String[] args) {

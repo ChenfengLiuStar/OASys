@@ -49,7 +49,7 @@
 
         <dependency>
             <groupId>com.oasys</groupId>
-            <artifactId>oa-api</artifactId>
+            <artifactId>oa-lcf-demo-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
