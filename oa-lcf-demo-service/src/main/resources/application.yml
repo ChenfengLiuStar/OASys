@@ -29,5 +29,5 @@ eureka:
 
 feign:
   hystrix:
-    enabled: 
+    enabled: true
 
